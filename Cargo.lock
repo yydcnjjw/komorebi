@@ -1519,8 +1519,7 @@ dependencies = [
 [[package]]
 name = "winvd"
 version = "0.0.20"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2bab2d5c745381b9c72797230150ec62244e693064fa0d654b5c4e6c75132a56"
+source = "git+https://github.com/Ciantic/VirtualDesktopAccessor?branch=rust#11502c442f0cc0e6b5304e6a45022406ac502842"
 dependencies = [
  "com",
  "crossbeam-channel",
