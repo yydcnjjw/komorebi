@@ -1,4 +1,4 @@
-set shell := ["cmd.exe", "/C"]
+set shell := ["pwsh.exe", "-c"]
 export RUST_BACKTRACE := "full"
 
 clean:
@@ -19,7 +19,7 @@ install:
     just install-komorebic
     just install-komorebi
     komorebic ahk-library
-    cat '%USERPROFILE%\komorebic.lib.ahk' > komorebic.lib.sample.ahk
+    cat $env:USERPROFILE\komorebic.lib.ahk > komorebic.lib.sample.ahk
 
 run:
     just install-komorebic
