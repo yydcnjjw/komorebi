@@ -18,9 +18,14 @@ Translations of this document can be found in the project wiki:
 
 - [komorebi 中文用户指南](https://github.com/LGUG2Z/komorebi/wiki/README-zh) (by [@crosstyan](https://github.com/crosstyan))
 
-There is a [Discord server](https://discord.gg/vzBmPm6RkQ) available for _komorebi_-related discussion, help,
+There is a [Discord server](https://discord.gg/mGkn66PHkx) available for _komorebi_-related discussion, help,
 troubleshooting etc. If you have any specific feature requests or bugs to report, please create an issue in this
 repository.
+
+Articles, blog posts, demos, and videos about _komorebi_ can be added to this list by PR:
+
+- [Moving to Windows from Linux Pt 1](https://kvwu.io/posts/moving-to-windows/)
+- [Windows 下的现代化平铺窗口管理器 komorebi](https://zhuanlan.zhihu.com/p/455064481)
 
 ## Description
 
@@ -311,6 +316,7 @@ focus-workspace                      Focus the specified workspace on the focuse
 focus-monitor-workspace              Focus the specified workspace on the target monitor
 cycle-monitor                        Focus the monitor in the given cycle direction
 cycle-workspace                      Focus the workspace in the given cycle direction
+move-workspace-to-monitor            Move the focused workspace to the specified monitor
 new-workspace                        Create and append a new workspace on the focused monitor
 resize-delta                         Set the resize delta (used by resize-edge and resize-axis)
 invisible-borders                    Set the invisible border dimensions around each window
@@ -376,6 +382,7 @@ used [is available here](komorebi.sample.with.lib.ahk).
 - [x] Move focused window container to workspace follow
 - [x] Send focused window container to monitor
 - [x] Send focused window container to workspace
+- [x] Move focused workspace to monitor
 - [x] Mouse follows focused container
 - [x] Resize window container in direction
 - [x] Resize window container on axis

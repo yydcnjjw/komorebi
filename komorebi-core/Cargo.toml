@@ -1,6 +1,6 @@
 [package]
 name = "komorebi-core"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -14,7 +14,7 @@ serde_yaml = "0.8"
 strum = { version = "0.23", features = ["derive"] }
 
 [dependencies.windows]
-version = "0.28"
+version = "0.30"
 features = [
     "Win32_Foundation",
 ]
